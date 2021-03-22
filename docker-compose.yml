@@ -3,6 +3,8 @@ version: "3.9"
 services:
   redis:
     image: redis:latest
+    networks:
+    - rest-network
     volumes:
     - ./config/redis.conf:/redis.conf
     command: [ "redis-server", "/redis.conf" ]
@@ -10,3 +12,8 @@ services:
     build: app 
     ports: 
     - "127.0.0.1:5000:5000"
+    networks:
+    - rest-network
+networks:
+  rest-network:
+    driver: bridge
