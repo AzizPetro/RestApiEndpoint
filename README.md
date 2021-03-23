@@ -31,7 +31,7 @@ Response:
 
 POST localhost:5000/score/submit
 Response:
-![image](https://user-images.githubusercontent.com/45763123/112211422-ee561280-8c2c-11eb-8e1f-863cfa9a181f.png)
+![image](https://user-images.githubusercontent.com/45763123/112212166-b3a0aa00-8c2d-11eb-8b6d-3c1cce825cd7.png)
 
 POST localhost:5000/user/create
 Response:
