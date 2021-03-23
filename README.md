@@ -38,13 +38,26 @@ Response:
 ![image](https://user-images.githubusercontent.com/45763123/112211567-1c3b5700-8c2d-11eb-9b9d-010e8307f88f.png)
 
 ###PROJECT STRUCTURE
-
+####Pipeline of the Project
 For Request
 ![image](https://user-images.githubusercontent.com/45763123/112214738-9a4d2d00-8c30-11eb-88c8-617f3b6e33ab.png)
 
 For Response
 ![image](https://user-images.githubusercontent.com/45763123/112215960-07ad8d80-8c32-11eb-8f65-35ae09db2fa3.png)
 
+####Structure of the Services
 
+-Custom Backend Service:
+  -API Gateway :RESTApi Gateway to be able to establish communication between the outside world and database
+  -Data Retrieval Service :Retrieves user's data and creates response for incoming request
 
+- Redis Service:
+  - Caching: Holds sorted list in order to quickly sort user rank according to their scores in-memory
+
+####Ports
+| Service 	| Port 	|
+|-	|-	|
+| **Serving** 	  	|
+| API Gateway 	| 5000 	|
+| Redis Service 	| 6379 	|
 
