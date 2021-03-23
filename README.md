@@ -49,9 +49,9 @@ For Response
 
 #### Structure of the Services
 
--Custom Backend Service
-  -API Gateway: RESTApi Gateway to be able to establish communication between the outside world and database
-  -Data Retrieval Service: Retrieves user's data and creates response for incoming request
+- Custom Backend Service
+  - API Gateway: RESTApi Gateway to be able to establish communication between the outside world and database
+  - Data Retrieval Service: Retrieves user's data and creates response for incoming request
 
 - Redis Service
   - Caching: Holds sorted list in order to quickly sort user rank according to their scores in-memory
