@@ -4,11 +4,11 @@ from datetime import datetime
 from flask import jsonify, request
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
 
-from Cache import Cache
-from DbInterface import IDB
+from cache import Cache
+from db_interface import IDb
 
 
-class DB(IDB):
+class DB(IDb):
 
     def __init__(self):
         self.db_connect = create_engine('sqlite:///user_data.db', echo=True)
