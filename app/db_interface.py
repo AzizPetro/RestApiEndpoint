@@ -1,4 +1,4 @@
-class IDB:
+class IDb:
     def get(self, data):
         pass
 
