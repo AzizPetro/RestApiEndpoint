@@ -1,11 +1,11 @@
 from flask import Flask
 from flask_restful import Api
 
-from Database import DB
+from database import Db
 
 app = Flask(__name__)
 api = Api(app)
-database = DB()
+database = Db()
 
 
 @app.route("/")
