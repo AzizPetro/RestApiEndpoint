@@ -1,6 +1,6 @@
 import redis
 
-from CacheInterface import ICache
+from cache_interface import ICache
 
 
 class Cache(ICache):
