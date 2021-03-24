@@ -8,7 +8,7 @@ from cache import Cache
 from db_interface import IDb
 
 
-class DB(IDb):
+class Db(IDb):
 
     def __init__(self):
         self.db_connect = create_engine('sqlite:///user_data.db', echo=True)
