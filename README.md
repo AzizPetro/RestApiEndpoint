@@ -14,7 +14,7 @@ The project uses custom backend and Redis services as docker containers. Run "do
 
 ### USAGE
 
-Client can sent RESTApi requests in JSON format in order to create new user, submit user's new score and get leaderboard or leaderboard by country. 
+Client can send RESTApi requests in JSON format in order to create new user, submit user's new score and get leaderboard or leaderboard by country. 
 Example requests can be seen below:
 
 GET localhost:5000 and GET localhost:5000/leaderboard
@@ -39,7 +39,7 @@ Response:
 
 ### PROJECT STRUCTURE
 
-#### Pipeline of the Project
+#### Architecture of the Project
 
 For Request
 ![image](https://user-images.githubusercontent.com/45763123/112214738-9a4d2d00-8c30-11eb-88c8-617f3b6e33ab.png)
